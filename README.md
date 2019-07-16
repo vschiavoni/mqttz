@@ -39,7 +39,7 @@
             + Time to encrypt payload
         + Vary:
             + Run in NW vs SW
-            + Load Key from persistent storage vs in memory?
+            + Load Key from persistent storage vs in memory? yes
             + Payload Size of 1kB, 4kB, 8kB, 16kB
         + Plot Structure:
             + ![Fig 14 in "On the Performance of ARM TrustZone"](./img/trustzone-comparison.png)
@@ -73,7 +73,8 @@
             + MQTTZ w/ reencryption in the NS world
             + MQTTZ w/ reencryption in the S world
             + HiveMQ (w/ and w/out TLS if available)
-            + Tesarakt: request a Demo? [lol](https://teserakt.io/)
+            + ZeroMQ (if integration is easy)
+            + Tesarakt: request a Demo? [lol](https://teserakt.io/) Low Priority
             + A secure Pub/Sub alternative platform/protocol (rather than MQTT)
         + Vary:
             + Package Size?
