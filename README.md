@@ -49,7 +49,7 @@
         + Measure:
             + Time Spent for the 1st Key Exchange
                 + Overhead (`mosquitto` connect + TLS Handshake)
-                + Time in client (generate Sym Key)
+                + Time in client (generate Symmetric Key)
                 + Time in server:
                     + Time outside TZ: before TA call and after.
                     + Time inside TZ: decrypt and store in SS
